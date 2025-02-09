@@ -1,0 +1,51 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .middle-text {
+    font-size: 18px;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Full-screen image styles */
+  .full-screen-image {
+    flex: 1; /* Take up remaining space */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .full-screen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
